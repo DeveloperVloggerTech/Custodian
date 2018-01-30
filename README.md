@@ -35,3 +35,16 @@ MIT License
 <b>Need help?</b>
 
 You can join the [support server](https://discord.gg/qtpgmFe), and invite the bot using this [link](https://discordapp.com/oauth2/authorize?client_id=379424813170819083&scope=bot&permissions=2105015551).
+
+## Table of Contents
+
+* [Commands Explanation](commands/)
+* [Commands]()
+  * [Canvas](commands/canvas.md)
+  * [Fun](commands/fun.md)
+  * [Moderation](commands/moderation.md)
+  * [Music](commands/music.md)
+  * [NSFW](commands/nsfw.md)
+  * [Social](commands/social.md)
+  * [System](commands/system.md)
+  * [Utilities](commands/utilities.md)
