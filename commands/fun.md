@@ -2,6 +2,7 @@
 
 Command | Description | Usage
 --------|-------------|------
+Cuddle | Cuddle someone | `cuddle <member:user>`
 Fight | Fight a user | `fight <member:user>`
 FML | Grab a random fmylife.com story | `fml`
 Jumbo | Enlarge an emote | `jumbo <emote:emote>`
