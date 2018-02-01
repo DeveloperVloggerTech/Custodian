@@ -1,8 +1,8 @@
 # Canvas
 
-Command | Description | Usage
---------|-------------|------
-Achievement | Creates an Achievement. | `achievement [member:user] <text:string>`
-Beautiful | Call someone beautiful. | `beautiful [member:user]`
-Respect | Pay respects to someone, Advanced Warfare style. | `respect <member:user>`
-The Search | Search the universe. | `thesearch [member:user] <text:string>`
+Command | Description | Usage | Permission Level
+--------|-------------|-------|-----------------
+Achievement | Creates an Achievement. | `achievement [member:user] <text:string>` | User
+Beautiful | Call someone beautiful. | `beautiful [member:user]` | User
+Respect | Pay respects to someone, Advanced Warfare style. | `respect <member:user>` | User
+The Search | Search the universe. | `thesearch [member:user] <text:string>` | User
