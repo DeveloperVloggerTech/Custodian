@@ -17,7 +17,7 @@ class Custodian extends Client {
     super(options);
 
     this.config = require('./config.js');
-    this.enUS = require('./langages/en-US.js');
+    this.enUS = require('./languages/en-US.js');
     
     this.api = new Idiot.Client(this.config.yorkAPIKey);
     this.queue = {};

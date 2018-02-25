@@ -14,9 +14,14 @@ Array.prototype.random = function() {
   return this[Math.floor(Math.random() * this.length)];
 };
 
-Message.prototype.lang = function(message, lang, category, key) {
-  const serverLang = require(`../languages/${lang}/${category}/${category}.json`);
-  message.channel.send(`${message.author} |\`❌\`| ${serverLang[key]}`);
+Message.prototype.lang = function(message, baseLang, key) {
+  const settings = this.client.settings.get(message.guild.id);
+  // const serverLang = require(`../languages/${lang}.js`);
+  // message.channel.send(`${message.author} |\`❌\`| ${serverLang[key]}`);
+  const lang = baseLang.split('-').join('');
+  const baseResponse = `${this.client}.${lang}.${key}`;
+  const response = baseResponse.replace('{{modLogChanne}}', settings.modLogChannel).replace('{{prefix}}', settings.prefix);
+  message.channel.send(`${message.author} |\`❌\`| ${response}`);  
 };
 
 Message.prototype.buildEmbed = function() {
