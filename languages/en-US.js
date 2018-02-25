@@ -1,0 +1,3 @@
+exports.language = [
+  'init file'
+];
